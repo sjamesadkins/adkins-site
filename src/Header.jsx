@@ -8,7 +8,7 @@ const Header = () => {
                 </h1>
                 <p style={{fontSize: "20pt"}}>
                     <a href='http://www.linkedin.com/in/adkins-mba'>LinkedIn</a><br></br>
-                    <a href='http://www.linkedin.com/in/adkins-mba'>GitHub</a><br></br>
+                    <a href='https://github.com/sjamesadkins'>GitHub</a><br></br>
                 </p>
             </div>
         </header>

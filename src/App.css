@@ -1,17 +1,14 @@
 .body {
-  margin: 0px;
-  padding: 0px;
-  background-color: black;
+  background: black;
+  margin-left: 10pc;
+  margin-right: 10pc;
+  margin-top: 10pc;
+  margin-bottom: 10pc;
 }
 
 .App {
   text-align: center;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-color: black;
-  display: flex;
-  flex-direction: column;
-  margin: 0px;
-  padding: 0px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 h1, h2, h3, h4, h5, p {
