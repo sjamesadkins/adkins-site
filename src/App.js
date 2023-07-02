@@ -1,6 +1,8 @@
 import './App.css';
-import Header from './Header.jsx'
-import Lyon from './Images/Lyon.jpg'
+import Landing from './components/Landing'
+import Projects from './components/Projects';
+import Adkins from './Images/Adkins.jpg'
+import Navbar from './components/Navbar'
 
 function App() {
   return (
@@ -8,10 +10,7 @@ function App() {
       <body className='body'>
         <div className='App'>
           <div className="App">
-            <Header></Header>
-            <img className="img-fluid" src={Lyon} alt="Lyon"></img>
-
-
+            <Landing></Landing>
           </div>
         </div>
       </body>
