@@ -1,3 +1,5 @@
+## This is the personal website of Sam Adkins, designed to showcase his life in the digital world and demonstrate his technical skills.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
