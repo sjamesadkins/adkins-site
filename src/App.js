@@ -8,11 +8,9 @@ function App() {
   return (
     <>
       <body className='body'>
-        <div className='App'>
           <div className="App">
             <Landing></Landing>
           </div>
-        </div>
       </body>
     </>
   );

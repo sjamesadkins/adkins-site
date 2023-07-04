@@ -29,7 +29,8 @@ h1, h2, h3, h4, h5 {
 #sidebar {
   width: 50rem;
   border-right: solid 1px #e3e3e3;
-  display: flex;
+  display:inline-flex;
+  flex: 0 6 auto;
   flex-direction: column;
 }
 
@@ -56,9 +57,27 @@ h1, h2, h3, h4, h5 {
 /* landing page photo */
 .profile {
   margin-left: 10pc;
+  flex: 0 6 auto;
 }
 
 .inline {
   display: flex;
+}
+
+/* resume */
+.resume {
+  flex-direction: column;
+  display:inline-flex;
+  flex: 1 1 auto;
+}
+
+/* fleur de lis */
+h1:before {
+  content: '\2022\ ';
+}
+
+h1:after {
+  content: ' \2022';
+
 }
 

@@ -9,17 +9,24 @@ import {
 } from "react-router-dom";
 
 import App from './App';
+import Landing from './components/Landing';
+import About from './components/About';
 import Projects from './components/Projects';
 import ErrorPage from './components/ErrorPage';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <Landing />,
     errorElement: <ErrorPage />
   },
   {
-    path: "projects/",
+    path: "pages/about/",
+    element: <About />,
+    errorElement: <ErrorPage />
+  },
+  {
+    path: "pages/projects/",
     element: <Projects />,
     errorElement: <ErrorPage />
   }
