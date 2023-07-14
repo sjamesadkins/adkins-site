@@ -8,7 +8,19 @@ const Sidebar = () => {
             <body className='body'>
                 <div className='App'>
                     <div>
-                        <h1 style={{marginBottom:"5pc", fontSize:"36pt"}}>Sam Adkins</h1>
+                        <h1 style={{marginBottom:"5pc", fontSize:"60pt"}}>
+                            <span>
+                                <span className="fade-name-1">S</span>
+                                <span className="fade-name-2">a</span>
+                                <span className="fade-name-3">m</span>
+                                <span> </span>
+                                <span className="fade-name-1">A</span>
+                                <span className="fade-name-2">d</span>
+                                <span className="fade-name-3">k</span>
+                                <span className="fade-name-2">i</span>
+                                <span className="fade-name-3">n</span>
+                                <span className="fade-name-1">s</span>
+                            </span></h1>
                     </div>
                     <container className="inline">
                         <div id="sidebar">
@@ -16,18 +28,20 @@ const Sidebar = () => {
                                 <nav>
                                     <ul>
                                         <li>
-                                            <a href={`/pages/about`}>Bio + Résumé</a>
+                                            <a href={`/adkins/about`}>Bio + Résumé</a>
                                         </li>
                                         <li>
-                                            <a href={`/pages/linkedin`}>LinkedIn</a>
+                                            <a href={`http://www.linkedin.com/in/adkins-mba`}>LinkedIn</a>
                                         </li>
                                         <li>
-                                            <a href={`/pages/github`}>GitHub</a>
+                                            <a href={`http://github.com/sjamesadkins`}>GitHub</a>
                                         </li>
                                         <li>
-                                            <a href={`/pages/projects`}>Coding Projects</a>
+                                            <a href={`/adkins/projects`}>Coding Projects</a>
                                         </li>
-                                        <li>
+
+                                        {/* hidden for now */}
+                                        {/* <li>
                                             <a href={`/pages/gastronomy`}>Gastronomy</a>
                                         </li>
                                         <li>
@@ -38,7 +52,7 @@ const Sidebar = () => {
                                         </li>
                                         <li>
                                             <a href={`/pages/blog`}>Vlog</a>
-                                        </li>
+                                        </li> */}
                                     </ul>
                                 </nav>
                                 
@@ -47,7 +61,10 @@ const Sidebar = () => {
                             <img className="img-fluid" src={Adkins} alt="Adkins"></img>
                         </div>
                     </container>
-        
+                                        
+                    <br></br><br></br>
+                    <container id="link"><h6 className="pwhite">• Built with <a href="https://react.dev/">React</a></h6></container>
+
                 </div>
             </body>
         </>

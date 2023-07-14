@@ -14,15 +14,46 @@
 }
 
 h1, h2, h3, h4, h5 {
-  color: rgb(255, 255, 255);
+  color: snow;
 }
 
 .pwhite {
   color: white;
 }
 
-.pblack {
+/* .pblack {
   color: black;
+} */
+
+/* name */
+@font-face {
+  font-family: nameFont;
+  src:url(/Users/sadkins/Library/Fonts/Tektur-VariableFont_wdth,wght.ttf);
+}
+
+@keyframes fade-name {
+  0%{opacity: 1; color: rgb(17, 219, 17)}
+  100%{opacity: .30; color: white} 
+}
+
+.fade-name-1 {
+  font-family: nameFont;
+  animation: fade-name 7s infinite alternate;
+}
+
+.fade-name-2 {
+  font-family: nameFont;
+  animation: fade-name 5s infinite alternate-reverse;
+}
+
+.fade-name-3 {
+  font-family: nameFont;
+  animation: fade-name 3s infinite alternate;
+}
+
+.fade-name-4 {
+  font-family: nameFont;
+  animation: fade-name 10s infinite alternate-reverse;
 }
 
 /* Sidebar styles */
@@ -69,15 +100,29 @@ h1, h2, h3, h4, h5 {
   flex-direction: column;
   display:inline-flex;
   flex: 1 1 auto;
+  /* font-family: 'Times New Roman', Times, serif; */
 }
 
-/* fleur de lis */
-h1:before {
-  content: '\2022\ ';
+/* bracket */
+.bracket1:before {
+  content: '\2774\ ';
+  color:white;
+  font-size: 100pt;
+  margin-left: 10pc;
 }
 
-h1:after {
-  content: ' \2022';
-
+.bracket2:after {
+  content: ' \2775';
+  color:white;
+  font-size: 100pt;
+  margin-right: 10pc;
 }
 
+/* link styles*/
+#link a {
+  color: rgb(17, 219, 17);
+}
+
+#link a:hover {
+  color:white;
+}

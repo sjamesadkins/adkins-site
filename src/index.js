@@ -21,12 +21,12 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />
   },
   {
-    path: "pages/about/",
+    path: "adkins/about/",
     element: <About />,
     errorElement: <ErrorPage />
   },
   {
-    path: "pages/projects/",
+    path: "adkins/projects/",
     element: <Projects />,
     errorElement: <ErrorPage />
   }
