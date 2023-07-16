@@ -20,6 +20,9 @@ const About = () => {
                         <nav>
                             <ul>
                                 <li>
+                                    <a href={`/`}>Home</a>
+                                </li>
+                                <li>
                                     <a href={`http://www.linkedin.com/in/adkins-mba`}>LinkedIn</a>
                                 </li>
                                 <li>
@@ -42,10 +45,6 @@ const About = () => {
                                 <li>
                                     <a href={`/pages/blog`}>Vlog</a>
                                 </li> */}
-                                
-                                <li>
-                                    <a href={`/`}>Home</a>
-                                </li>
                             </ul>
                         </nav>
                 </div>

@@ -16,6 +16,9 @@ const Projects = () => {
                             <nav>
                                 <ul>
                                     <li>
+                                        <a href={`/`}>Home</a>
+                                    </li>
+                                    <li>
                                         <a href={`/adkins/about`}>Biography</a>
                                     </li>
                                     <li>
@@ -41,34 +44,30 @@ const Projects = () => {
                                     <li>
                                         <a href={`/pages/blog`}>Vlog</a>
                                     </li> */}
-                                    
-                                    <li>
-                                        <a href={`/`}>Home</a>
-                                    </li>
                                 </ul>
                             </nav>
                     </div>
 
 
-                    <div className="card" style={{width:"18rem", marginLeft:"5pc", minWidth:"200px", minHeight:"200px", maxHeight:"325px"}}>
+                    <div className="card" style={{width:"18rem", marginLeft:"5pc", minWidth:"200px", minHeight:"200px", maxWidth:"325px", maxHeight:"325px"}}>
                         <img src={Rally} className="card-img-top" alt="Rally"></img>
                         <div className="card-body">
                             <h5 className="card-title">Rally Networking App</h5>
-                            <p className="card-text">A neighborhood networking site for STL</p>
+                            <p className="card-text">A neighborhood networking site for STL - Class Demo</p>
                             <a href="https://home-5013300400.app-ionos.space/#/home" className="btn btn-primary">Web Site</a>
                         </div>
                     </div>
 
-                    <div className="card" style={{width:"18rem", marginLeft:"2pc", minWidth:"200px", minHeight:"200px", maxHeight:"325px"}}>
+                    <div className="card" style={{width:"18rem", marginLeft:"2pc", minWidth:"200px", minHeight:"200px", maxWidth:"325px", maxHeight:"325px"}}>
                         <img src={Blockchain} className="card-img-top" alt="Python Blockchain"></img>
                         <div className="card-body">
                             <h5 className="card-title">Python Blockchain</h5>
-                            <p className="card-text">A blockchain project build from a Udemy Python tutorial</p>
-                            <a href="https://github.com/sjamesadkins" className="btn btn-primary">Github</a>
+                            <p className="card-text">A blockchain project Udemy Python tutorial - In Progress</p>
+                            <a href="https://github.com/sjamesadkins/Blockchain_Udemy" className="btn btn-primary">Github</a>
                         </div>
                     </div>
 
-                    <div className="card" style={{width:"18rem", marginLeft:"2pc", minWidth:"200px", minHeight:"200px", maxHeight:"325px"}}>
+                    <div className="card" style={{width:"18rem", marginLeft:"2pc", minWidth:"200px", minHeight:"200px", maxWidth:"325px", maxHeight:"325px"}}>
                         <img src={Hello} className="card-img-top" alt="Placeholder"></img>
                         <div className="card-body">
                             <h5 className="card-title">Placeholder</h5>
