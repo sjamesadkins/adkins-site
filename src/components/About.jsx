@@ -1,5 +1,4 @@
 
-import Adkins from '../Images/Adkins.jpg'
 
 const About = () => {
     return (
@@ -9,11 +8,12 @@ const About = () => {
                 <container className="inline">
                     <div className="bracket1"></div>    
                         <div>
-                            <h4 className='App' style={{marginBottom:"5pc", marginLeft:"2pc", marginRight:"2pc", color:"snow", textAlign:"justify"}}>Welcome to my digital space! I'm a developer with experience in JavaScript, Java, and Python. I enjoy the process of creation. Coding is a natural extension of that interest, and so is my passion to play music and make delicious foods. I spend my free time building my tech skills, learning the French language, and crafting fantastic ginger beer.<br></br><br></br>Please explore my résumé below.</h4>
+                            <h4 className='App' style={{marginBottom:"5pc", marginLeft:"2pc", marginRight:"2pc", color:"snow", textAlign:"justify", minWidth:"500px", maxWidth:"1200px"}}>Welcome to my digital space! I'm a developer with experience in JavaScript, Java, and Python. I enjoy the process of creation. Coding is a natural extension of that interest, and so is my passion to play music and make delicious foods. I spend my free time building my tech skills, learning the French language, and crafting fantastic ginger beer.<br></br><br></br>Please explore my résumé below.</h4>
                         </div>
                     <div className="bracket2"></div>  
                 </container>
                 <br></br>
+
             <container className="inline">
                 <div id="sidebar" className='App'>
                     <h2>Explore</h2>
@@ -51,7 +51,7 @@ const About = () => {
                 </div>
 
                 {/* RESUME */}
-                <div className="resume">
+                <div className="resume" style={{minWidth:"1000px", maxWidth:"1200px"}}>
                     <h2 style={{textAlign:'center'}}>
                         
                         Samuel James Adkins<br></br><br></br>
@@ -65,7 +65,7 @@ const About = () => {
                     <br></br>
 
                 {/* SUMMARY */}
-                    <p className="pwhite" style={{marginLeft:"5pc", textAlign:"justify"}}>Experience spanning roles in government, private industry, and entrepreneurship. &nbsp;Strengths include research, writing, coding, negotiation, management, and quantitative analysis. &nbsp;Continual learner of computer programming (Java, JavaScript, Python, SQL). &nbsp;Continual learner of the French language (intermediate level, B1). &nbsp;Top Secret / Secret Compartmented Information security clearance. &nbsp;DAWIA Level II certified in government contracting. &nbsp;Certified Federal Contracting Manager. &nbsp; Successful small-business co-founder. &nbsp; Demonstrated ability to quickly learn new material and adapt to a changing landscape.</p>
+                    <p className="pwhite" style={{marginLeft:"5pc", textAlign:"justify"}}>Experience spanning roles in government, private industry, and entrepreneurship. &nbsp;Strengths include research, writing, coding, negotiation, management, and quantitative analysis. &nbsp;Continual learner of computer programming (Java, JavaScript, Python, SQL).&nbsp;Continual learner of the French language (intermediate level, B1). &nbsp;Top Secret / Secret Compartmented Information security clearance. &nbsp;DAWIA Level II certified in government contracting. &nbsp;Certified Federal Contracting Manager. &nbsp; Successful small-business co-founder. &nbsp; Demonstrated ability to quickly learn new material and adapt to a changing landscape.</p>
                     <br></br>
 
                 {/* TECH specs */}
@@ -107,11 +107,11 @@ const About = () => {
                         </div>
 
                         <div className="resume" style={{marginLeft:"1pc"}}>
-                            <p>Developed code and logic to enable login, a networking messaging forum, community events <br></br>and services repositories with sorting and filtering by keyword, and direct message features.</p>
+                            <p>Developed code and logic to enable login, a networking messaging forum, community events and services <br></br> repositories with sorting and filtering by keyword, and direct message features.</p>
                         </div>
                     </container>
 
-                    <container className="inline, pwhite" style={{marginLeft:"5pc"}}>
+                    <container className="pwhite" style={{marginLeft:"5pc"}}>
                         <div className="resume">
                             <p>•</p>
                         </div>
@@ -161,7 +161,7 @@ const About = () => {
                         </div>
 
                         <div className="resume" style={{marginLeft:"1pc"}}>
-                            <p>Researching and analyzing a wide range of policies, intelligence sources, and open source <br></br>reporting to minimize risk and maximize US benefit of the disclosure and release of classified<br></br> and sensitive intelligence to assist policymakers, support humanitarian efforts, and strengthen<br></br> the national defense of millions of individuals worldwide.</p>
+                            <p>Researching and analyzing a wide range of policies, intelligence sources, and open source <br></br>reporting to minimize risk and maximize US benefit of the disclosure and release of classified<br></br> and sensitive intelligence to assist policymakers, support humanitarian efforts, and provide<br></br> for the defense of millions of individuals worldwide.</p>
                         </div>
                     </container>
                     <br></br>

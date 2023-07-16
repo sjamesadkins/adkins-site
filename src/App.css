@@ -57,11 +57,14 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Sidebar styles */
+
+/* Sidebar Landing */
 #sidebar {
-  width: 50rem;
+  max-width: 1000px;
+  min-width: 300px;
   border-right: solid 1px #e3e3e3;
   display:inline-flex;
-  flex: 0 6 auto;
+  /* flex: 0 6 auto; */
   flex-direction: column;
 }
 
@@ -99,7 +102,7 @@ h1, h2, h3, h4, h5 {
 .resume {
   flex-direction: column;
   display:inline-flex;
-  flex: 1 1 auto;
+  flex: 0 6 auto;
   /* font-family: 'Times New Roman', Times, serif; */
 }
 

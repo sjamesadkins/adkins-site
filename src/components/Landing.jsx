@@ -28,7 +28,7 @@ const Sidebar = () => {
                                 <nav>
                                     <ul>
                                         <li>
-                                            <a href={`/adkins/about`}>Bio + Résumé</a>
+                                            <a href={`/adkins/about`}>Biography</a>
                                         </li>
                                         <li>
                                             <a href={`http://www.linkedin.com/in/adkins-mba`}>LinkedIn</a>
@@ -57,7 +57,7 @@ const Sidebar = () => {
                                 </nav>
                                 
                         </div>
-                        <div className="profile">
+                        <div className="profile" style={{minWidth:"500px"}}>
                             <img className="img-fluid" src={Adkins} alt="Adkins"></img>
                         </div>
                     </container>
