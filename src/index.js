@@ -16,17 +16,17 @@ import ErrorPage from './components/ErrorPage';
 
 const router = createBrowserRouter([
   {
-    path: "/adkins-site/",
+    path: "/adkins-site",
     element: <Landing />,
     errorElement: <ErrorPage />
   },
   {
-    path: "adkins/about/",
+    path: "/adkins/about/",
     element: <About />,
     errorElement: <ErrorPage />
   },
   {
-    path: "adkins/projects/",
+    path: "/adkins/projects/",
     element: <Projects />,
     errorElement: <ErrorPage />
   }
