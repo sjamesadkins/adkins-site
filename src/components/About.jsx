@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom"
 
 const About = () => {
     return (
@@ -20,7 +20,7 @@ const About = () => {
                         <nav>
                             <ul>
                                 <li>
-                                    <a href={`/`}>Home</a>
+                                    <Link to="/">Home</Link>
                                 </li>
                                 <li>
                                     <a href={`http://www.linkedin.com/in/adkins-mba`}>LinkedIn</a>
@@ -29,7 +29,7 @@ const About = () => {
                                     <a href={`http://github.com/sjamesadkins`}>GitHub</a>
                                 </li>
                                 <li>
-                                    <a href={`/adkins/projects`}>Coding Projects</a>
+                                    <Link to="/projects">Coding Projects</Link>
                                 </li>
 
                                 {/* hidden for now */}

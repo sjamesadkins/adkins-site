@@ -1,6 +1,7 @@
 import Adkins from '../Images/Adkins.jpg'
+import { Link } from 'react-router-dom'
 
-const Sidebar = () => {
+const Landing = () => {
 
     return (
 
@@ -28,7 +29,7 @@ const Sidebar = () => {
                                 <nav>
                                     <ul>
                                         <li>
-                                            <a href={`/adkins/about`}>Biography</a>
+                                            <Link to="/about">Biography</Link>
                                         </li>
                                         <li>
                                             <a href={`http://www.linkedin.com/in/adkins-mba`}>LinkedIn</a>
@@ -37,7 +38,7 @@ const Sidebar = () => {
                                             <a href={`http://github.com/sjamesadkins`}>GitHub</a>
                                         </li>
                                         <li>
-                                            <a href={`/adkins/projects`}>Coding Projects</a>
+                                            <Link to="/projects">Coding Projects</Link>
                                         </li>
 
                                         {/* hidden for now */}
@@ -83,4 +84,4 @@ const Sidebar = () => {
     ) 
 }
 
-export default Sidebar
+export default Landing

@@ -1,6 +1,7 @@
 import Blockchain from '../Images/Blockchain.jpeg'
 import Hello from '../Images/Hello.jpeg'
 import Rally from '../Images/Rally.jpeg'
+import { Link } from 'react-router-dom'
 
 const Projects = () => {
 
@@ -16,10 +17,10 @@ const Projects = () => {
                             <nav>
                                 <ul>
                                     <li>
-                                        <a href={`/`}>Home</a>
+                                        <Link to="/">Home</Link>
                                     </li>
                                     <li>
-                                        <a href={`/adkins/about`}>Biography</a>
+                                        <Link to="/about">Biography</Link>
                                     </li>
                                     <li>
                                         <a href={`http://www.linkedin.com/in/adkins-mba`}>LinkedIn</a>
