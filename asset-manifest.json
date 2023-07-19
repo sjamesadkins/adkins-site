@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/sjamesadkins/adkins-site/static/css/main.c25b44cc.css",
-    "main.js": "/sjamesadkins/adkins-site/static/js/main.66f42221.js",
-    "static/js/787.c0960b22.chunk.js": "/sjamesadkins/adkins-site/static/js/787.c0960b22.chunk.js",
-    "static/media/Adkins.jpg": "/sjamesadkins/adkins-site/static/media/Adkins.d5617a329a386c25ddcd.jpg",
-    "static/media/Blockchain.jpeg": "/sjamesadkins/adkins-site/static/media/Blockchain.b970cdd50a0a6eac88f8.jpeg",
-    "static/media/Rally.jpeg": "/sjamesadkins/adkins-site/static/media/Rally.606723a2e3a8a5387d36.jpeg",
-    "static/media/Tektur-VariableFont_wdth,wght.ttf": "/sjamesadkins/adkins-site/static/media/Tektur-VariableFont_wdth,wght.d120d1180b75dca72626.ttf",
-    "static/media/Hello.jpeg": "/sjamesadkins/adkins-site/static/media/Hello.73ee719752b8ff4c3bd2.jpeg",
-    "index.html": "/sjamesadkins/adkins-site/index.html",
-    "main.c25b44cc.css.map": "/sjamesadkins/adkins-site/static/css/main.c25b44cc.css.map",
-    "main.66f42221.js.map": "/sjamesadkins/adkins-site/static/js/main.66f42221.js.map",
-    "787.c0960b22.chunk.js.map": "/sjamesadkins/adkins-site/static/js/787.c0960b22.chunk.js.map"
+    "main.css": "/adkins-site/static/css/main.43807876.css",
+    "main.js": "/adkins-site/static/js/main.bd42e452.js",
+    "static/js/787.c0960b22.chunk.js": "/adkins-site/static/js/787.c0960b22.chunk.js",
+    "static/media/Adkins.jpg": "/adkins-site/static/media/Adkins.d5617a329a386c25ddcd.jpg",
+    "static/media/Blockchain.jpeg": "/adkins-site/static/media/Blockchain.b970cdd50a0a6eac88f8.jpeg",
+    "static/media/Rally.jpeg": "/adkins-site/static/media/Rally.606723a2e3a8a5387d36.jpeg",
+    "static/media/Tektur-VariableFont_wdth,wght.ttf": "/adkins-site/static/media/Tektur-VariableFont_wdth,wght.d120d1180b75dca72626.ttf",
+    "static/media/Hello.jpeg": "/adkins-site/static/media/Hello.73ee719752b8ff4c3bd2.jpeg",
+    "index.html": "/adkins-site/index.html",
+    "main.43807876.css.map": "/adkins-site/static/css/main.43807876.css.map",
+    "main.bd42e452.js.map": "/adkins-site/static/js/main.bd42e452.js.map",
+    "787.c0960b22.chunk.js.map": "/adkins-site/static/js/787.c0960b22.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c25b44cc.css",
-    "static/js/main.66f42221.js"
+    "static/css/main.43807876.css",
+    "static/js/main.bd42e452.js"
   ]
 }
