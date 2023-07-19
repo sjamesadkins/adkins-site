@@ -19,17 +19,23 @@ import ErrorPage from './components/ErrorPage';
 
 
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-    <HashRouter basename="adkins-site">
-      <Routes>
-          <Route exact path='/' element={<Landing />}/>
-          <Route path='/about' element={<About />}/>
-          <Route path='/projects' element={<Projects />}/>
-          <Route path='*' element={<ErrorPage />}/>
-      </Routes>
-    </HashRouter>
-);
+// ReactDOM.createRoot(document.getElementById('root')).render(
+//     <HashRouter>
+//       <Routes>
+//           <Route path='/' element={<Landing />}/>
+//           <Route path='/about' element={<About />}/>
+//           <Route path='/projects' element={<Projects />}/>
+//           <Route path='*' element={<ErrorPage />}/>
+//       </Routes>
+//     </HashRouter>
+// );
 
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <HashRouter>
+    <App />
+  </HashRouter>
+);
 
 // const router = createBrowserRouter([
 //   {
