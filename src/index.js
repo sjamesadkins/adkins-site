@@ -32,7 +32,7 @@ import ErrorPage from './components/ErrorPage';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <HashRouter>
+  <HashRouter basemap="/adkins-site">
     <App />
   </HashRouter>
 );
