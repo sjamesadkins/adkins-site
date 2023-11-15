@@ -3,12 +3,8 @@ import Landing from './components/Landing'
 import Projects from './components/Projects';
 import About from './components/About';
 import ErrorPage from './components/ErrorPage';
-import Adkins from './Images/Adkins.jpg'
-import Navbar from './components/Navbar'
-import { HashRouter } from 'react-router-dom';
 import { Routes, Route } from 'react-router-dom';
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 
 function App() {
   return (

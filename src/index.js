@@ -3,19 +3,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
 import { HashRouter } from 'react-router-dom';
-import { Route } from 'react-router-dom';
-import { Routes } from 'react-router-dom';
-
 import App from './App';
-import Landing from './components/Landing';
-import About from './components/About';
-import Projects from './components/Projects';
-import ErrorPage from './components/ErrorPage';
+
 
 
 
